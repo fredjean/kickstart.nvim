@@ -120,6 +120,30 @@ examples of adding popularly requested plugins.
 
 [The Only Video You Need to Get Started with Neovim](https://youtu.be/m8C0Cq9Uv9o)
 
+### Running Tests
+
+This configuration includes unit tests for plugin configurations. Tests are located in the `tests/` directory.
+
+#### Run all tests
+
+```sh
+make test
+```
+
+Or directly:
+
+```sh
+./tests/run_tests.sh
+```
+
+#### Run specific tests
+
+```sh
+make test-treesitter-context
+```
+
+For more details, see [tests/README.md](tests/README.md).
+
 ### FAQ
 
 * What should I do if I already have a pre-existing Neovim configuration?
